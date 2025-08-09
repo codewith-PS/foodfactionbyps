@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+.navdiv{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    position: relative;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    width: max-content;
+    font-family:Gabriola;
+    top: 10px;
+    left: 45px;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.838);
+}
+.mset{
+    height: 80px;
+    width: 55%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    top: 12px;
+    font-family: Gabriola;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+}
+.liset{
+    width: 45%;
+    display: flex;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    list-style: none;
+}
+#bs{
+    position: relative;
+    top: 5px;
+    height: 35px;
+    width: 40px;
+}
+li a{
+    color: rgb(14, 255, 14);
+    text-decoration: none;
+}
+.section{
+    height: 125%;
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+    position: relative;
+}
+.topdiv{
+    position: relative;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.aset{
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid red;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 80px;
+    font-weight: 100;
+    color: white;
+    
+}
+.itemcard{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: aqua;
+}
+.itemdiv{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.productcard1{
+    position: relative;
+    height: 350px;
+    width: 240px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 5px;
+}
+.btn{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: none;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Gabriola;
+}
+#fh{
+    font-family: Dubai Light;
+    height: 100px;
+    width: 400px;
+    margin-left: 50px;
+}
+#last{
+    font-size: 22px;
+    height: 100px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#itemcount{
+    position: absolute;
+    z-index: 100;
+    color: rgb(85, 122, 162);
+    top: -5px;
+}

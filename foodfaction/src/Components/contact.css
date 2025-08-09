@@ -1,0 +1,67 @@
+
+.mid{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.contact{
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid wheat;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 5px rgba(216, 125, 125, 0.574);
+    margin-bottom: 20px;
+}
+input{
+    height: 40px;
+    width: 280px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    border: 4px solid rgb(0, 255, 132);
+}
+#btns{
+    height: 35px;
+    width: 140px;
+    font-family:cursive;
+    border-radius: 20px;
+    border: none;
+    border: 4px solid rgb(0, 255, 132);
+    cursor: pointer;
+    font-weight: 800;
+}
+
+div .footer{
+    height: 133px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Gabriola;
+    position: relative;
+}
+#fh{
+    font-family: Dubai Light;
+    height: 100px;
+    width: 400px;
+    margin-left: 50px;
+}
+#last{
+    font-size: 22px;
+    height: 100px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
